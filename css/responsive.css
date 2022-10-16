@@ -1,0 +1,189 @@
+/* if the viewport is 390px or less than that */
+
+@media only screen and (max-width:395px){
+
+    .title-text{
+        font: normal bold 20px/ 30px var(--roboto);
+    }
+    .header_area .main-menu .navbar{
+        
+        padding: 10px 10px 10px 0px;
+        
+    }
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0 4.7rem 0 1.3rem;
+    }
+    .site-main .row
+    {
+        padding: 10px 10px 10px 0px;
+        margin: 0px;
+    }
+    .site-main .site-banner .site-title .line{
+        visibility: hidden;
+        margin-top: 5px;
+    }
+    .site-main .site-banner .site-title h3{
+        font-size: 1rem;
+        padding: 0px;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 1rem;
+    }
+    .site-main .site-banner .site-title h4{
+        font-size: 1rem;
+    }
+
+    .button{
+        padding: .8rem 2.2rem;
+        font: normal 500 10px/1px var(--roboto);
+        position: relative;
+        border: 3px solid transparent;
+        border-radius: 4px;
+        margin: 5px;
+    }
+
+            
+    .site-main .row .banner-image img{
+        display: none;
+    }
+
+
+    .site-main .about-area {
+        padding: 4rem 0rem 0rem 0rem;
+    }
+
+    .site-main .about-area .about-image{
+        display: none;
+        
+    }
+
+    .site-main .about-area .about-title h2 > span{
+        
+        
+        font: normal bold 21px/ 28px var(--cambria);
+    }
+
+    .site-main .about-area .about-title .paragraph{
+        padding: 0px;
+        margin: 0px;
+        height: 350px;
+
+    }
+    .site-main .about-area .about-title .para{
+        width: 300px;
+        text-align: justify;
+    }
+
+                                                /* SKILLS AREA */
+
+    .site-main .brand-area{
+    padding: 1rem 1rem;
+    margin-bottom: 4rem;
+    display: none;
+    }
+
+    .site-main .brand-area .image-bigbox{
+        display: flex;
+        
+    }
+
+    .site-main .brand-area .first-row{
+        width: 150px;
+        margin-top: 0px;
+    }
+
+    .site-main .brand-area .first-row .image-box{
+        display: inline;
+    }
+
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand{
+
+        width: 90px;
+        height: 90px;
+    }
+
+    .site-main .services-area{
+        padding: 1rem 1rem;
+
+    }
+    .site-main .services-area .services-title{
+        padding: 0 1rem;
+    }
+
+    .site-main .services-area .education-list .education-box{
+        margin-left: 0px;
+    }
+
+    .site-main .services-area .education-list .education-box .two {
+        margin-top: 15px;
+    }
+
+    .site-main .services-area .education-list .education-box-one .education{
+        margin-top: 15px;
+    }
+
+
+    .site-main .services-area .education-list .vertical-line{
+        display: none;
+    }
+
+
+    .site-main .project-area{
+        padding: 4rem 0rem 1rem 0rem;
+    }
+
+    .site-main .project-area .project-title{
+        padding-left: 1rem ;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 17px/43px var(--roboto);
+    }
+
+    .site-main .project-area .button-group button + button {
+        padding-left: 1rem;
+    }
+
+    
+
+
+    
+    .site-main .about-area .about-title .para1 {
+        padding: 1rem 1rem;
+        width: 340px;
+    }
+
+
+
+
+
+    .site-main .contact-form .section1{
+        margin-left: 10px;
+    }
+
+    .site-main .contact-form .input-textbox{
+        width: 284px;
+        padding: 0.7rem 1rem;
+        border: 1px solid whitesmoke;
+        background: transparent;
+        color: whitesmoke;
+        font: normal 500 17px/20px var(--roboto);
+    }
+
+    .site-main .contact-form form > button{
+        height: 20px;
+        width: 60px;
+        font-size: 0.7rem;
+        padding: 0px;
+    }
+
+    .site-main .contact-form .contact-info{
+        margin: 1rem 2rem 1rem 2.099rem;
+        
+    }
+
+    .site-main .contact-form .contact-info .contact-text{
+        width: 282px;
+        text-align: justify;
+    }
+}
